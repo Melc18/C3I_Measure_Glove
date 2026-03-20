@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "74xGxx_editable")(type "KiCad")(uri "${KIPRJMOD}/Libraries/74xGxx_editable.kicad_sym")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Library.kicad_sym")(options "")(descr ""))
+)

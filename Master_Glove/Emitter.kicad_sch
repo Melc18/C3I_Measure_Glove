@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1fdf7d23-e0dd-4bce-a295-878d49f821fd")
+	(paper "A4")
+	(title_block
+		(title "Glove PCB")
+		(date "2026-03-29")
+		(rev "1.0")
+		(company "C3I")
+	)
+	(lib_symbols)
+)

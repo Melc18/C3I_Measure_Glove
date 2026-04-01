@@ -784,6 +784,18 @@
 		)
 	)
 	(rectangle
+		(start 46.99 71.12)
+		(end 118.11 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 05895ae5-e62c-4ce0-b1d2-7d6055021374)
+	)
+	(rectangle
 		(start 15.24 24.13)
 		(end 41.91 68.58)
 		(stroke
@@ -794,6 +806,30 @@
 			(type none)
 		)
 		(uuid 2d07b8eb-d296-4d42-85e0-01928712f989)
+	)
+	(rectangle
+		(start 123.19 71.12)
+		(end 194.31 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3b0b3206-4478-451b-a5e0-341227b07532)
+	)
+	(rectangle
+		(start 15.24 71.12)
+		(end 41.91 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5006b045-6a35-492d-b015-1810f4e12fc4)
 	)
 	(rectangle
 		(start 123.19 24.13)
@@ -829,6 +865,16 @@
 		)
 		(uuid "0a1eb9a2-8203-4520-b1c8-e03f85e8af1d")
 	)
+	(text "*3.1076"
+		(exclude_from_sim no)
+		(at 53.086 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a21b4d7-7140-4370-aeb0-7778d8d6f660")
+	)
 	(text "Log Amplifier, Output = ln(Input)"
 		(exclude_from_sim no)
 		(at 65.024 26.416 0)
@@ -849,9 +895,19 @@
 		)
 		(uuid "63404a63-0e8d-461c-8e3a-c7d0f1d8e1c0")
 	)
-	(text "*3.1076 & Substractor"
+	(text "Unused"
 		(exclude_from_sim no)
-		(at 135.89 26.162 0)
+		(at 130.81 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bac09b6f-5b13-4702-8762-901173115dd1")
+	)
+	(text "*3.1076"
+		(exclude_from_sim no)
+		(at 129.032 26.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -866,6 +922,12 @@
 		(uuid "05766eb6-ba27-4e30-9585-9fb48d841c91")
 	)
 	(junction
+		(at 74.93 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14b716dd-b3f5-4b60-b3b1-b5336f8c6809")
+	)
+	(junction
 		(at 69.85 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -878,10 +940,22 @@
 		(uuid "27e425e6-d465-4397-9a24-8695cacad728")
 	)
 	(junction
+		(at 97.79 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "287c19ff-c3d6-4c30-a7cf-bd5309c22634")
+	)
+	(junction
 		(at 161.29 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52a21b7d-4d71-4962-8654-344f119eddc7")
+	)
+	(junction
+		(at 78.74 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70b9a3da-8387-4a77-9f5c-503fd38fd644")
 	)
 	(junction
 		(at 184.15 46.99)
@@ -898,16 +972,6 @@
 			(type default)
 		)
 		(uuid "0d4151be-b8f3-495e-869d-7e19db237083")
-	)
-	(wire
-		(pts
-			(xy 138.43 38.1) (xy 143.51 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10bf32a5-9a86-4211-915b-cf5aa43d5149")
 	)
 	(wire
 		(pts
@@ -931,6 +995,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 82.55) (xy 64.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a362bd-c8d3-42ee-8171-e5f60018adfe")
+	)
+	(wire
+		(pts
+			(xy 78.74 82.55) (xy 86.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cea184-7821-47a0-9883-983d152fe8be")
+	)
+	(wire
+		(pts
 			(xy 184.15 46.99) (xy 189.23 46.99)
 		)
 		(stroke
@@ -938,6 +1022,26 @@
 			(type default)
 		)
 		(uuid "205762d5-95fe-4a8b-8bf8-0443f2ce23ef")
+	)
+	(wire
+		(pts
+			(xy 74.93 93.98) (xy 72.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29cbf8a4-6938-48c6-8fe6-88886d46222b")
+	)
+	(wire
+		(pts
+			(xy 78.74 88.9) (xy 78.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4b9906-e3ce-4255-a8fc-bd9781a2fd31")
 	)
 	(wire
 		(pts
@@ -961,6 +1065,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 82.55) (xy 97.79 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4614e989-7822-437b-b3bc-5a6c22724f75")
+	)
+	(wire
+		(pts
+			(xy 60.96 93.98) (xy 64.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4979c0ec-d4f9-441e-b771-8553b0118c23")
+	)
+	(wire
+		(pts
 			(xy 165.1 38.1) (xy 158.75 38.1)
 		)
 		(stroke
@@ -981,6 +1105,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 92.71) (xy 60.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52298292-7be5-4f5a-8410-d45f95f2c174")
+	)
+	(wire
+		(pts
 			(xy 165.1 44.45) (xy 165.1 38.1)
 		)
 		(stroke
@@ -991,23 +1125,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 49.53) (xy 143.51 49.53)
+			(xy 78.74 82.55) (xy 72.39 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bb52a73-3c8a-45dc-a0c5-2d6033e96dec")
-	)
-	(wire
-		(pts
-			(xy 139.7 48.26) (xy 139.7 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5da1cf02-df13-4393-b6c9-8ae0097a9084")
+		(uuid "5e73940f-cbfb-4626-b0b9-631ee66a5117")
 	)
 	(wire
 		(pts
@@ -1018,6 +1142,26 @@
 			(type default)
 		)
 		(uuid "7e3c8813-869a-4446-ab93-38b162c24a21")
+	)
+	(wire
+		(pts
+			(xy 139.7 49.53) (xy 143.51 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ab0863-8013-43be-bd35-bd0391b346c8")
+	)
+	(wire
+		(pts
+			(xy 97.79 91.44) (xy 99.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8684e05c-415a-4b13-a67e-7916a5fc343f")
 	)
 	(wire
 		(pts
@@ -1071,6 +1215,36 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 38.1) (xy 137.16 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3224da7-3324-4d3a-a42c-d74b6a3528ac")
+	)
+	(wire
+		(pts
+			(xy 74.93 93.98) (xy 78.74 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6435a64-3a91-4678-901e-c459f36077bc")
+	)
+	(wire
+		(pts
+			(xy 74.93 96.52) (xy 74.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ed3fd9-3583-4cea-98d1-0250ee8e1841")
+	)
+	(wire
+		(pts
 			(xy 64.77 50.8) (xy 64.77 48.26)
 		)
 		(stroke
@@ -1078,6 +1252,16 @@
 			(type default)
 		)
 		(uuid "a8241fb3-28a8-4c10-bf2c-e92e2f7ad947")
+	)
+	(wire
+		(pts
+			(xy 97.79 91.44) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c2ee46-175e-4d2c-b662-8d7218e10bab")
 	)
 	(wire
 		(pts
@@ -1111,6 +1295,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 38.1) (xy 143.51 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e606fc9f-998a-43fd-851c-4805f0a3462b")
+	)
+	(wire
+		(pts
+			(xy 97.79 82.55) (xy 97.79 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e651ccb8-5f78-42f0-9257-7ac6ed2f899e")
+	)
+	(wire
+		(pts
 			(xy 90.17 36.83) (xy 90.17 45.72)
 		)
 		(stroke
@@ -1141,7 +1345,7 @@
 			)
 		)
 	)
-	(global_label "DiffOutput"
+	(global_label "GainOutput"
 		(shape input)
 		(at 189.23 46.99 0)
 		(fields_autoplaced yes)
@@ -1153,12 +1357,34 @@
 		)
 		(uuid "522b437f-9aad-4724-9896-2e5b0ea851d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7703 46.99 0)
+			(at 202.6169 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GainOutput"
+		(shape input)
+		(at 60.96 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "669e949b-ae95-48b5-b804-f48e6a1e8b7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.5731 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1185,9 +1411,31 @@
 			)
 		)
 	)
+	(global_label "GainOutput"
+		(shape input)
+		(at 99.06 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ba9425a-7d04-476f-aa4c-52708b7db3a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.4469 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LogOutput"
 		(shape input)
-		(at 138.43 38.1 180)
+		(at 139.7 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1197,7 +1445,7 @@
 		)
 		(uuid "9cd2ee62-f886-4d74-aa70-221ef0c508e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.8898 38.1 0)
+			(at 127.1598 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,26 +1544,24 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 139.7 48.26 0)
+		(lib_id "Device:R")
+		(at 68.58 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16fa1fb8-2e0d-49f8-b420-2243ad41a7dd")
-		(property "Reference" "#PWR03"
-			(at 139.7 52.07 0)
+		(uuid "1866d970-6bd6-46a6-896a-7d22a37944be")
+		(property "Reference" "R11"
+			(at 68.834 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 139.7 43.18 0)
+		(property "Value" "10k"
+			(at 69.088 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 48.26 0)
+			(at 68.58 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,8 +1577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 139.7 48.26 0)
+		(property "Datasheet" "~"
+			(at 68.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,8 +1586,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.7 48.26 0)
+		(property "Description" "Resistor"
+			(at 68.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,12 +1596,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad13d54a-3486-4c1a-a3c4-139f78ce4b30")
+			(uuid "7e44ef17-ecaf-4509-bcda-3686d125abea")
+		)
+		(pin "2"
+			(uuid "ad5c15f2-661a-49b8-a2fd-30e99ffa7b60")
 		)
 		(instances
-			(project ""
+			(project "Master_Glove"
 				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
-					(reference "#PWR03")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1422,6 +1671,92 @@
 			(project ""
 				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2340")
+		(at 86.36 91.44 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "224bcaf9-9f3d-408b-a063-e1cc2c067103")
+		(property "Reference" "U2"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2340"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4340.pdf"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Single-Supply, Rail-to-Rail Operational Amplifiers, MicroAmplifier Series, DIP-8/SOIC-8/SSOP-8"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4f2ce03e-452e-4a80-84ed-6ba56fd5ad58")
+		)
+		(pin "7"
+			(uuid "cf676cf5-a295-4c88-8a98-607b6fec7e03")
+		)
+		(pin "3"
+			(uuid "7d825d79-c6cc-478b-943d-7e2b38926d6f")
+		)
+		(pin "2"
+			(uuid "56244a3f-46f1-4a96-a031-106e469bb512")
+		)
+		(pin "1"
+			(uuid "72245b5b-61b4-4806-a8a0-fb434dfdfdbd")
+		)
+		(pin "6"
+			(uuid "9ebcfd13-5129-4ec8-af62-4fbdf32be6ce")
+		)
+		(pin "8"
+			(uuid "f54c0b9a-3a2c-4c6b-a098-5451bb9c518c")
+		)
+		(pin "4"
+			(uuid "b5babcf5-6ed4-4fa4-8532-a00c69ff898f")
+		)
+		(instances
+			(project ""
+				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1554,6 +1889,269 @@
 			(project "Master_Glove"
 				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "468387de-dc2d-460c-b946-4f96ac7b40f2")
+		(property "Reference" "#PWR03"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adff91eb-ab2f-46d5-92d3-71989abc4abd")
+		)
+		(instances
+			(project ""
+				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46c1140d-960f-4b0b-bebb-d6b85b9e49a6")
+		(property "Reference" "#PWR08"
+			(at 60.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.706 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1803b05-5e92-4d34-8f17-5085d433cf8c")
+		)
+		(instances
+			(project "Master_Glove"
+				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48d96cfb-30a3-49d0-989f-fb2a0a35b5b9")
+		(property "Reference" "R14"
+			(at 90.17 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 90.17 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93127a37-7e3e-451a-a37a-0162f71f0113")
+		)
+		(pin "2"
+			(uuid "f37d4633-9df9-40e9-ab4b-14ec40cc6c15")
+		)
+		(instances
+			(project "Master_Glove"
+				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5aba198b-6ea6-4a0c-801c-77b816be439d")
+		(property "Reference" "#PWR06"
+			(at 26.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0354597-83a2-417f-af4e-dea5aa904f1e")
+		)
+		(instances
+			(project "Master_Glove"
+				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1846,6 +2444,160 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 26.67 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d9ed574-407d-40d2-95de-5f0f83f8697e")
+		(property "Reference" "#PWR07"
+			(at 26.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 26.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 26.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "619b1928-1172-40d1-b652-f50dc081d833")
+		)
+		(instances
+			(project "Master_Glove"
+				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2340")
+		(at 29.21 92.71 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f1fdb97-7802-455b-968a-1e597ecee632")
+		(property "Reference" "U2"
+			(at 27.94 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA2340"
+			(at 27.94 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4340.pdf"
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Single-Supply, Rail-to-Rail Operational Amplifiers, MicroAmplifier Series, DIP-8/SOIC-8/SSOP-8"
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4f2ce03e-452e-4a80-84ed-6ba56fd5ad58")
+		)
+		(pin "7"
+			(uuid "cf676cf5-a295-4c88-8a98-607b6fec7e03")
+		)
+		(pin "3"
+			(uuid "7d825d79-c6cc-478b-943d-7e2b38926d6f")
+		)
+		(pin "2"
+			(uuid "56244a3f-46f1-4a96-a031-106e469bb512")
+		)
+		(pin "1"
+			(uuid "72245b5b-61b4-4806-a8a0-fb434dfdfdbd")
+		)
+		(pin "6"
+			(uuid "9ebcfd13-5129-4ec8-af62-4fbdf32be6ce")
+		)
+		(pin "8"
+			(uuid "f54c0b9a-3a2c-4c6b-a098-5451bb9c518c")
+		)
+		(pin "4"
+			(uuid "b5babcf5-6ed4-4fa4-8532-a00c69ff898f")
+		)
+		(instances
+			(project ""
+				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 147.32 49.53 270)
 		(unit 1)
@@ -1907,6 +2659,73 @@
 			(project "Master_Glove"
 				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4b9e62d-9b03-4061-9587-c4ab33039924")
+		(property "Reference" "R13"
+			(at 70.866 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 70.866 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.152 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7a0fe2a-520e-4999-af78-f23322ebe942")
+		)
+		(pin "2"
+			(uuid "131d13dc-3e97-4709-a07d-a3d3d1ccff5b")
+		)
+		(instances
+			(project "Master_Glove"
+				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2115,6 +2934,159 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 68.58 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baa61c73-5cf7-43ed-b778-9e2a3a2c7c93")
+		(property "Reference" "R12"
+			(at 68.58 89.154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 68.58 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bd92e16-b441-4e58-b868-1948e7c78e5f")
+		)
+		(pin "2"
+			(uuid "5325882b-cb06-4f13-ba88-28e30bda1418")
+		)
+		(instances
+			(project "Master_Glove"
+				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2340")
+		(at 163.83 93.98 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf60d792-46c7-499b-9e4f-80d659540a25")
+		(property "Reference" "U2"
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2340"
+			(at 163.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4340.pdf"
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Single-Supply, Rail-to-Rail Operational Amplifiers, MicroAmplifier Series, DIP-8/SOIC-8/SSOP-8"
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4f2ce03e-452e-4a80-84ed-6ba56fd5ad58")
+		)
+		(pin "7"
+			(uuid "cf676cf5-a295-4c88-8a98-607b6fec7e03")
+		)
+		(pin "3"
+			(uuid "7d825d79-c6cc-478b-943d-7e2b38926d6f")
+		)
+		(pin "2"
+			(uuid "56244a3f-46f1-4a96-a031-106e469bb512")
+		)
+		(pin "1"
+			(uuid "72245b5b-61b4-4806-a8a0-fb434dfdfdbd")
+		)
+		(pin "6"
+			(uuid "9ebcfd13-5129-4ec8-af62-4fbdf32be6ce")
+		)
+		(pin "8"
+			(uuid "f54c0b9a-3a2c-4c6b-a098-5451bb9c518c")
+		)
+		(pin "4"
+			(uuid "b5babcf5-6ed4-4fa4-8532-a00c69ff898f")
+		)
+		(instances
+			(project ""
+				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA2340")
 		(at 172.72 46.99 0)
 		(mirror x)
@@ -2125,7 +3097,7 @@
 		(dnp no)
 		(uuid "d8914432-e290-4772-9e2f-20b7ec97fcd3")
 		(property "Reference" "U1"
-			(at 172.72 57.15 0)
+			(at 175.26 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +3105,7 @@
 			)
 		)
 		(property "Value" "OPA2340"
-			(at 172.72 54.61 0)
+			(at 175.26 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,6 +3241,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 74.93 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4f0a853-f426-42d0-be4f-5e7d9c9ff22c")
+		(property "Reference" "#PWR09"
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58a4820b-6280-4f15-a34e-9a4257029a1b")
+		)
+		(instances
+			(project "Master_Glove"
+				(path "/4d29d845-b206-46d3-9e63-0d81f5289579/14bd897f-7c8e-4316-b30e-ec0d722b1f87"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA2340")
 		(at 78.74 45.72 0)
 		(mirror x)
@@ -2279,7 +3317,7 @@
 		(dnp no)
 		(uuid "fe803c91-5249-4885-bec4-616545a62f75")
 		(property "Reference" "U1"
-			(at 78.74 55.88 0)
+			(at 80.518 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +3325,7 @@
 			)
 		)
 		(property "Value" "OPA2340"
-			(at 78.74 53.34 0)
+			(at 80.518 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4215,6 +4215,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 377.19 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "769b08a0-19fc-4247-a7e9-7cb010168e8f")
 		)
@@ -4426,6 +4435,15 @@
 			)
 		)
 		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+			(at 194.31 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 194.31 223.52 0)
 			(effects
 				(font
@@ -4782,6 +4800,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 171.45 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "769b08a0-19fc-4247-a7e9-7cb010168e91")
 		)
@@ -4860,6 +4887,15 @@
 			)
 		)
 		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+			(at 34.29 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 34.29 179.07 0)
 			(effects
 				(font
@@ -5152,6 +5188,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 285.75 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "769b08a0-19fc-4247-a7e9-7cb010168e92")
 		)
@@ -5321,7 +5366,7 @@
 		(at 171.45 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1f2c53c6-706c-4585-b0bf-f451a95e264c")
@@ -5899,6 +5944,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 445.77 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "c934420f-59ff-4199-b904-6603e3f27d7c")
 		)
@@ -6009,6 +6063,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 306.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "871b4b54-17a4-4dce-855f-318191179fd0")
 		)
@@ -6089,6 +6152,15 @@
 			)
 		)
 		(property "Description" "4-bit full Adder"
+			(at 445.77 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 445.77 233.68 0)
 			(effects
 				(font
@@ -6406,6 +6478,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 217.17 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "769b08a0-19fc-4247-a7e9-7cb010168e93")
 		)
@@ -6486,6 +6567,15 @@
 			)
 		)
 		(property "Description" "4-bit full Adder"
+			(at 102.87 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 102.87 179.07 0)
 			(effects
 				(font
@@ -7127,6 +7217,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 534.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "96a845f8-04d3-417a-a87b-6b7f1cef6518")
 		)
@@ -7207,6 +7306,15 @@
 			)
 		)
 		(property "Description" "4-bit full Adder"
+			(at 331.47 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 331.47 180.34 0)
 			(effects
 				(font
@@ -7382,6 +7490,15 @@
 			)
 		)
 		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+			(at 148.59 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 148.59 179.07 0)
 			(effects
 				(font
@@ -7606,6 +7723,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 77.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "380c107d-1253-4d28-90f1-d9e22a565f0e")
 		)
@@ -7644,7 +7770,7 @@
 		(at 148.59 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5fefc8ab-9af3-401c-960f-021d25ed975a")
@@ -7779,7 +7905,7 @@
 		(at 140.97 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "61cbb621-8341-477a-99f6-685a3dab1b5b")
@@ -7962,6 +8088,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 420.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dd908112-7576-4bf7-b6e1-e3a1aeb0c0ac")
 		)
@@ -8105,6 +8240,15 @@
 			)
 		)
 		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+			(at 377.19 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 377.19 233.68 0)
 			(effects
 				(font
@@ -8451,7 +8595,7 @@
 		(at 163.83 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6b314860-e944-44de-ba04-6927c8788528")
@@ -8869,6 +9013,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 491.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "769b08a0-19fc-4247-a7e9-7cb010168e96")
 		)
@@ -8947,6 +9100,15 @@
 			)
 		)
 		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+			(at 420.37 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 420.37 228.6 0)
 			(effects
 				(font
@@ -9041,6 +9203,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 191.77 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "769b08a0-19fc-4247-a7e9-7cb010168e97")
 		)
@@ -9080,7 +9251,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "70cb8bbd-2ccb-46c2-8f5c-8e461c28ba5c")
@@ -9172,7 +9343,7 @@
 		(at 186.69 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "739bf29a-c895-4553-b54d-6a19d88089ab")
@@ -9284,6 +9455,15 @@
 			)
 		)
 		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+			(at 240.03 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 240.03 223.52 0)
 			(effects
 				(font
@@ -9568,6 +9748,15 @@
 			)
 		)
 		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+			(at 262.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 262.89 223.52 0)
 			(effects
 				(font
@@ -9898,6 +10087,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 217.17 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "aa76c01b-cd88-4361-9e59-3c6212a7896d")
 		)
@@ -10090,7 +10288,7 @@
 		(at 39.37 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "899e0107-ebe1-4f78-a935-424b8b291a40")
@@ -10427,6 +10625,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 534.67 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f95ef3c8-2000-4d2e-b9db-c1f3b6be0670")
 		)
@@ -10530,7 +10737,7 @@
 		(at 156.21 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9440cabb-8e88-44cd-bda1-44da20889189")
@@ -10707,6 +10914,15 @@
 			)
 		)
 		(property "Description" "4-bit full Adder"
+			(at 560.07 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 560.07 233.68 0)
 			(effects
 				(font
@@ -11755,6 +11971,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 262.89 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "769b08a0-19fc-4247-a7e9-7cb010168e9a")
 		)
@@ -11974,6 +12199,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 148.59 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "380c107d-1253-4d28-90f1-d9e22a565f0f")
 		)
@@ -12054,6 +12288,15 @@
 			)
 		)
 		(property "Description" "4-bit full Adder"
+			(at 560.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 560.07 180.34 0)
 			(effects
 				(font
@@ -12164,6 +12407,15 @@
 			)
 		)
 		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+			(at 491.49 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 491.49 233.68 0)
 			(effects
 				(font
@@ -13097,7 +13349,7 @@
 		(at 179.07 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e7d2ad8a-d9ca-4921-b335-07280d76d562")

@@ -1,0 +1,4 @@
+Reference;Qty;Value;Datasheet;Manufacturer;Manufacturer Part Number;Qty to Buy;Unit Price;Ext Price
+U1,U7,U10,U13,U16,U19,U22;7;74HC283;https://www.digikey.ca/en/products/detail/texas-instruments/CD74HC283M96/1506951;Texas Instruments;CD74HC283M96;10;0,7860;7,86
+U3,U5,U8,U11,U14,U17,U20;7;74LVC2G32;https://www.digikey.ca/en/products/detail/texas-instruments/SN74LVC2G32DCUR/484833;Texas Instruments;SN74LVC2G32DCUR;10;0,5850;5,85
+U4,U6,U9,U12,U15,U18,U21;7;SN74LVC1G08DCKR;https://www.digikey.ca/en/products/detail/texas-instruments/SN74AHC1G08DCKR/373800;Texas Instruments;SN74AHC1G08DCKR;10;0,0990;0,99

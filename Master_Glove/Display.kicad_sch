@@ -2644,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 119.38 76.2)
+			(xy 115.57 76.2) (xy 119.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3248,7 +3248,7 @@
 	)
 	(global_label "CLKIN"
 		(shape input)
-		(at 116.84 76.2 180)
+		(at 115.57 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3258,7 +3258,7 @@
 		)
 		(uuid "0a14df13-a745-4015-9215-262d34e259f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.3514 76.2 0)
+			(at 107.0814 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,6 +3814,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_INIT"
+		(shape input)
+		(at 118.11 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f539c15d-2289-443b-9760-2bdd181ddf61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.0209 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

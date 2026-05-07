@@ -4097,7 +4097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 245.11 20.574 0)
 			(effects
 				(font
@@ -4162,7 +4162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 142.24 61.214 0)
 			(effects
 				(font
@@ -4299,8 +4299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 220.98 20.574 0)
+		(property "Value" "+5V"
+			(at 220.218 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 224.79 20.574 0)
 			(effects
 				(font
@@ -4633,7 +4633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 161.29 61.214 0)
 			(effects
 				(font
@@ -4698,7 +4698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 256.54 61.214 0)
 			(effects
 				(font
@@ -4897,7 +4897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 194.31 82.804 0)
 			(effects
 				(font
@@ -5285,7 +5285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 91.44 61.214 0)
 			(effects
 				(font
@@ -5585,7 +5585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 226.06 100.584 0)
 			(effects
 				(font
@@ -5849,7 +5849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 157.48 61.214 0)
 			(effects
 				(font
@@ -6118,7 +6118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 148.59 61.214 0)
 			(effects
 				(font
@@ -6251,7 +6251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 256.54 20.574 0)
 			(effects
 				(font
@@ -7324,7 +7324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 245.11 100.584 0)
 			(effects
 				(font
@@ -8110,8 +8110,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 220.98 61.214 0)
+		(property "Value" "+5V"
+			(at 220.726 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,7 +8175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 195.58 122.174 0)
 			(effects
 				(font
@@ -8305,8 +8305,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 224.79 61.214 0)
+		(property "Value" "+5V"
+			(at 225.298 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +8370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 256.54 100.584 0)
 			(effects
 				(font
@@ -8571,7 +8571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 193.04 42.164 0)
 			(effects
 				(font
@@ -9176,7 +9176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 222.25 100.584 0)
 			(effects
 				(font
@@ -9410,7 +9410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 245.11 61.214 0)
 			(effects
 				(font

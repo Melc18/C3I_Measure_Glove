@@ -2088,6 +2088,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 31.75) (xy 167.64 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9be630e-e5d0-4c68-b56d-1d0249d7e17f")
+	)
+	(wire
+		(pts
 			(xy 106.68 33.02) (xy 107.95 33.02)
 		)
 		(stroke
@@ -4115,7 +4125,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V8")
-		(at 167.64 33.02 0)
+		(at 167.64 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4123,7 +4133,7 @@
 		(dnp no)
 		(uuid "f60a47c4-746e-4c7f-a335-2457fd0767d4")
 		(property "Reference" "#PWR076"
-			(at 167.64 36.83 0)
+			(at 167.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4142,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 167.64 29.464 0)
+			(at 167.64 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 33.02 0)
+			(at 167.64 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 33.02 0)
+			(at 167.64 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4168,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 167.64 33.02 0)
+			(at 167.64 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)

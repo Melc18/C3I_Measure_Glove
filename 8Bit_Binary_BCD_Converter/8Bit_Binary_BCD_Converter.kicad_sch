@@ -1942,7 +1942,7 @@
 	)
 	(global_label "Ones2"
 		(shape input)
-		(at 572.77 172.72 0)
+		(at 572.77 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1952,7 +1952,7 @@
 		)
 		(uuid "014362fb-63cf-463e-be8a-c6c5e37c4461")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 581.5609 172.72 0)
+			(at 581.5609 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +1986,7 @@
 	)
 	(global_label "Tens0"
 		(shape input)
-		(at 572.77 167.64 0)
+		(at 572.77 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1996,7 +1996,7 @@
 		)
 		(uuid "04d03106-5fc3-41e6-8a79-f0d83d86aaed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 581.198 167.64 0)
+			(at 581.198 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2580,7 @@
 	)
 	(global_label "Ones1"
 		(shape input)
-		(at 572.77 175.26 0)
+		(at 572.77 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2590,7 +2590,7 @@
 		)
 		(uuid "44b57040-c063-4266-a7f9-a0659a5f4921")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 581.5609 175.26 0)
+			(at 581.5609 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,7 +3086,7 @@
 	)
 	(global_label "Ones3"
 		(shape input)
-		(at 572.77 170.18 0)
+		(at 572.77 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3096,7 +3096,7 @@
 		)
 		(uuid "7e3421b8-90ac-4929-a4cc-8722e2de3cce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 581.5609 170.18 0)
+			(at 581.5609 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

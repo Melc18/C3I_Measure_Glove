@@ -2906,7 +2906,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "766699b1-c36a-4469-86f2-1c6c283d3be2")
+			(uuid "766699b1-c36a-4469-86f2-1c6c283d3be3")
 		)
 		(instances
 			(project "Master_Glove"

@@ -1,4 +1,4 @@
-26770915725046933
+26776256925309842
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69320,6 +69320,20 @@ solder jumper open
 0
 3
 3
+LCSC
+LQFN-56_L7.0-W7.0-P0.4-EP
+
+
+0
+57
+57
+LCSC
+SENSOR-TH_GU10XXC-40TR
+
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -70595,6 +70609,13 @@ SOIC-20_L12.8-W7.5-P1.27-LS10.3-BL
 20
 20
 Library
+SOT-23 MMUN2211LT1G
+SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+Library
 SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
 
 
@@ -70602,9 +70623,9 @@ SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
 6
 6
 Library
-TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR
-
-
+SOT-353-1_74LVC1G14GW,125
+5-pin SOT23 package
+SOT-23-5 hand-soldering
 0
 5
 5

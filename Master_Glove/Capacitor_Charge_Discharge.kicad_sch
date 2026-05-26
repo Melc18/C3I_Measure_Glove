@@ -1570,16 +1570,6 @@
 		)
 		(uuid 847e7634-397f-42c8-bf40-7ae1488281da)
 	)
-	(text "Footprint a valider\nSOT-23-3"
-		(exclude_from_sim no)
-		(at 158.496 101.092 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "006db8c5-401d-426a-90ee-83f65d4e4bab")
-	)
 	(text "f = 1 / ( k1*R*C )\nk1 = 1.44"
 		(exclude_from_sim no)
 		(at 103.378 29.464 0)
@@ -4117,7 +4107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SOT-353-1_74LVC1G14GW,125"
 			(at 62.23 101.6 0)
 			(effects
 				(font
@@ -4407,7 +4397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SOT-23 MMUN2211LT1G"
 			(at 203.2 101.6 0)
 			(effects
 				(font
@@ -4452,7 +4442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=E 3=C "
 			(at 139.7 101.6 0)
 			(effects
 				(font
